@@ -10,14 +10,14 @@ def Subida():
     print('Subida: {:.2f}'.format(dw) + ' Mb/s')
 
 def Descarga():
-    pass
+    
+    #Velocidad de descarga
+    up = st.upload()/1000000
+    print('Descarga: {:.2f}'.format(up) + ' Mb/s')
 
 def Ping():
     pass
 
-#Velocidad de descarga
-up = st.upload()/1000000
-print('Descarga: {:.2f}'.format(up) + ' Mb/s')
 
 #Medición de ping
 print(st.results.ping)
