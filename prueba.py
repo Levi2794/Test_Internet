@@ -3,7 +3,7 @@
 import speedtest
 
 
-def Subuda():
+def Subida():
     pass
 
 
