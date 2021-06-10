@@ -6,6 +6,11 @@ import speedtest
 def Subida():
     pass
 
+def Descarga():
+    pass
+
+def Ping():
+    pass
 
 st = speedtest.Speedtest()
 
