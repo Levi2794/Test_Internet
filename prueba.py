@@ -10,7 +10,8 @@ def Descarga():
     pass
 
 def Ping():
-    pass
+    #Medición de ping
+    print(st.results.ping)
 
 st = speedtest.Speedtest()
 
@@ -22,6 +23,4 @@ print('Subida: {:.2f}'.format(dw) + ' Mb/s')
 up = st.upload()/1000000
 print('Descarga: {:.2f}'.format(up) + ' Mb/s')
 
-#Medición de ping
-print(st.results.ping)
 
