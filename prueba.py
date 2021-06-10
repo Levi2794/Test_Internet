@@ -22,3 +22,8 @@ def Ping():
 #Medición de ping
 print(st.results.ping)
 
+if __name__ == '__main__':
+    print("\tTest de velocidad de internet.....\n")
+    Subida()
+    Descarga()
+    Ping()
