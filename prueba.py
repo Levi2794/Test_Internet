@@ -2,6 +2,11 @@
 #Importa la libreria speedtest
 import speedtest
 
+
+def Subuda():
+    pass
+
+
 st = speedtest.Speedtest()
 
 #Velocidad de subida
